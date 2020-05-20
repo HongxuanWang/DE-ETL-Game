@@ -1,7 +1,7 @@
 # Take-Home-Assignment-Perfect-World-Entertainment
 
 ## Introduction
-3 test files have been provided. Each file is in JSON lines format and contains meta data of users event activity log. In this submission, data has been process with PySpark and turned into CSV format that was loaded into a MySQL database with event tables. A report is generated for loaded data with sql queries.
+Three test files in JSON lines format have been provided and contains meta data of users event activity log. In this submission, data has been process with PySpark and turned into CSV format that was loaded into a MySQL database with event tables. A report is generated for loaded data with sql queries.
 
 
 ## Table design
@@ -14,9 +14,7 @@ Event tables are designed to optimize queries for report. Time-series data with 
 
 
 ## Python scripts
-
 - etl.py: Read JSON logs and JSON metadata and turned them into CSV.
-
 
 `python etl.py`
 Process data from `Data` folder with etl pipeline that will create result CSV files in `Result` folder.
