@@ -21,11 +21,12 @@ Have all provided files in `Data` folder.
 `python etl.py`
 Process data from `Data` folder with etl pipeline that will create valid rows in CSV files in `Result` folder, malformed records in `malformed.log` and `error.log`. 
 
-loadtomysql.ipynb
+Run `loadtomysql.ipynb`.
 Read csv from `Result` folder and insert data into each event table. This can be automated to py file as well. 
 
-report.ipnb
+Run `report.ipnb`.
 Loop through all three files source and query result into report.
 
 If given more time:
 - Valid rows can be directly inserted to database with python scripts. 
+- In real world application, data can be streamed with the py file. 
