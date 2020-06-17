@@ -1,7 +1,7 @@
 # Take-Home-Assignment-Perfect-World-Entertainment
 
 ## Introduction
-Three test files in JSON lines format have been provided and contain meta data of users event activity log. In this submission, data has been process with PySpark and turned into CSV format that was loaded into a MySQL database with event tables. A report is generated for loaded data with sql queries.
+Three test files in JSON lines format have been provided and contain meta data of users event activity log. In this submission, data has been process with PySpark and turned into CSV files, then loaded into a MySQL database with event tables. A report is generated for loaded data with sql queries.
 
 
 ## Table design
